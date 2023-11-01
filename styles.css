@@ -1,0 +1,40 @@
+body{
+    font-family: Bahnschrift light;
+}
+
+.attribute {
+    display: block;
+}
+
+.attribute-subheading{
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+ul {
+    display: block;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+q {
+    cursor: pointer;
+    font-size: 19px;
+    font-style: italic;
+    user-select: none;
+    transition: color ease 0.3s;
+    transition: background-color ease 0.3s;
+}
+
+q:hover {
+    color: rgb(43, 56, 56);
+    background-color: rgb(223, 223, 223);
+    transition: color ease 0.3s;
+    transition: background-color ease 0.3s;
+}
+
+.toggle-visible-element {
+    display: none;
+}
